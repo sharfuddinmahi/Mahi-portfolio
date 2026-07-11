@@ -232,3 +232,68 @@ nav ul.button{
     font-weight:600;
 
 }
+
+/* conference */
+
+.schedule{
+    width:90%;
+    max-width:1200px;
+    margin:100px auto;
+    text-align:center;
+}
+.schedule h2{
+    font-size:46px;
+    color:#16233B;
+    margin-bottom:15px;
+}
+.schedule p{
+    color:#666;
+    margin-bottom:60px;
+}
+.schedule-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+.day-card{
+    background:#ffffff;
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    padding:35px;
+    text-align:left;
+    transition:.3s;
+}
+.day-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+}
+.day-card span{
+    color:#2D5BFF;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:1px;
+}
+.day-card h3{
+    margin:15px 0 25px;
+    font-size:28px;
+}
+.day-card ul{
+    list-style:none;
+}
+.day-card li{
+    margin-bottom:16px;
+}
+.day-card li::before{
+    content:"✓";
+    color:#2D5BFF;
+    margin-right:10px;
+    font-weight:bold;
+}
+.featured-day{
+    background:#16233B;
+    color:white;
+}
+.featured-day span,
+.featured-day li::before{
+    color:#4F7DFF;
+}

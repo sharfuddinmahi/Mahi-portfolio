@@ -17,7 +17,6 @@ img {
   cursor: pointer;
 }
 .common-btn:hover{
-
     background:#94969c;
 }
 
@@ -46,3 +45,52 @@ text-decoration:none;
 nav ul.button{
     justify-content: space-between;
 }
+/* hero section */
+.hero{
+
+    position:relative;
+    width:100%;
+    height:650px;
+    background-image:url("./assets/banner.jpg");
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.hero-content{
+    position:relative;
+    width:700px;
+    text-align:center;
+    color:white;
+}
+
+.hero-content h1{
+    font-size:55px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+.hero-content h1 span{
+    font-style:italic;
+}
+.hero-content p{
+    width:620px;
+    font-size:18px;
+    color:#dddddd;
+}
+#hero-section{
+    display:inline-block;
+    margin: 100px;
+    text-decoration:none;
+
+    background:#2D5BFF;
+    color:white;
+
+    padding:18px 42px;
+    border-radius:8px;
+    font-size:17px;
+    font-weight:600;
+}
+
+
